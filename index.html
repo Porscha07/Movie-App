@@ -16,24 +16,19 @@
 <body>
 <!-- <h1> sanity check</h1> -->
 	<div class="container">
-		</div>
 		<div class="row">
 			<div id="search-container" class="col-sm-12 text-center">
 				<form id="movie-form">
-				<h1>
 					<input id="search-input" type="text" placeholder="Search Here"/>
-							<form>
-							<select name="Search Here">
-							    <option value="Genre">Genre</option>
-								<option value="TV">TV</option>
-								<option value="Reviews">Reviews</option>
-								<option value="Trailers">Trailers</option>
-							</select>
-							</form>
-						  <button type="submit" class="btn btn-primary">Submit</button>
-						</div>
+					<select name="Search Here">
+					    <option value="Similiar_Movies" id="Similar">Similiar Movies</option>
+						<option value="TV" id="Tv">TV</option>
+						<option value="Reviews" id="Reviews">Reviews</option>
+						<option value="Trailers" id="Trailers">Trailers </option>
+					</select>
+					 <button type="submit" class="btn btn-primary">Submit</button>
 				</form>
-
+			</div>
 			<div id="movie-grid" class="col-sm-12">
 			<!-- jQuery, dont fail us now...get us the movie posters... -->
 			</div>
@@ -50,15 +45,15 @@
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		    	    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    	    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 		      </div>
 		      <div class="modal-body">
 		        ...
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		        <button type="button" class="btn btn-primary">Save changes</button>
+		   	     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		   	     <button type="button" class="btn btn-primary">Save changes</button>
 		      </div>
 		    </div>
 		  </div>

@@ -8,5 +8,6 @@
 
 body{
 	
-	background-color: blue;
+	background-image: url('Movie_Theater_Background.jpg');
+	background-repeat: no-repeat;
 }
