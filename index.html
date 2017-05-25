@@ -17,28 +17,56 @@
 <!-- <h1> sanity check</h1> -->
 	<div class="container">
 		<div class="row">
-			<div id="search-container" class="col-sm-12 text-center">
+			<div id="search-container" class="col-sm-12 text-center ">
 				<form id="movie-form">
 					<input id="search-input" type="text" placeholder="Search Here"/>
-					<select name="Search Here">
+					<select name="Search Here" >
 					    <option value="Similiar_Movies" id="Similar">Similiar Movies</option>
-						<option value="TV" id="Tv">TV</option>
+						<option value="TV" id="TV">TV</option>
 						<option value="Reviews" id="Reviews">Reviews</option>
 						<option value="Trailers" id="Trailers">Trailers </option>
 					</select>
 					 <button type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
-			<div id="movie-grid" class="col-sm-12">
+			<div id="movie-grid" class="col-sm-4 offset col-sm-8">
 			<!-- jQuery, dont fail us now...get us the movie posters... -->
 			</div>
 		</div>
 	</div>
+		<!-- **********Left Wall********** -->
+		<div class="row">
+			<div id="left-wall" class="col-sm-4 offset col-sm-8">
+				<div id="movie-poster-1" class="movie-poster">
+					<img src="https://i.annihil.us/u/prod/marvel/i/mg/9/c0/58d54d2cdc863/portrait_incredible.jpg ">
+				</div>
+				<div id="movie-poster-2" class="movie-poster">
+					<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNTE2Nzg1NjkzNV5BMl5BanBnXkFtZTgwOTgyODMyMTI@._V1_UX182_CR0,0,182,268_AL_.jpg">
+				</div>
+				<div id="movie-poster-3" class="movie-poster">
+					<img src=" https://images-na.ssl-images-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_UX182_CR0,0,182,268_AL_.jpg">
+				</div>
+			</div>
+		</div>
+		<!-- **********Right Wall********** -->
+		<div class="row">
+			<div id="right-wall" class="offset col-sm-8 col-sm-4 ">
+				<div id="movie-poster-4" class="movie-poster">
+					<img src="http://static.rogerebert.com/uploads/movie/movie_poster/the-boss-baby-2017/large_IMG_5157.JPG">
+				</div>
+				<div id="movie-poster-5" class="movie-poster">
+					<img src="">
+				</div>
+				<div id="movie-poster-6" class="movie-poster">
+					<img src=" ">
+				</div>
+			</div>
+		</div>
 
 <!-- Button trigger modal -->
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<!-- 		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 		  Launch demo modal
-		</button>		
+		</button> -->		
 
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

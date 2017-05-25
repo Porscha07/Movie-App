@@ -7,7 +7,90 @@
 } */
 
 body{
-	
+	position: relative;
 	background-image: url('Movie_Theater_Background.jpg');
 	background-repeat: no-repeat;
 }
+#left-wall{
+	transform: rotateY(52degrees);
+}
+
+#movie-poster-1 img{
+	height: 155px;
+	width: 140px;
+	border: 2px solid blue;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	margin: auto;
+	position: relative;
+	left: 150px;
+	top: 50px;
+	transform: skewX(-13deg);
+}
+
+#movie-poster-2 img{
+	height: 155px;
+	width: 140px;
+	border: 2px solid blue;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	margin: auto;
+	position: relative;
+	left: 200px;
+	top: 7px;
+	transform: skewX(-13deg);
+}
+
+#movie-poster-3 img{
+	height: 155px;
+	width: 140px;
+	border: 2px solid blue;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	margin: auto;
+	position: relative;
+	left: 250px;
+	top: 150px;
+	transform: skewX(-13deg);
+}
+
+#movie-poster-4 img{
+	height: 155px;
+	width: 140px;
+	border: 2px solid blue;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	margin: auto;
+	position: relative;
+	top: 250px;
+left: 150px;
+	transform: skewX(-13deg);
+
+}
+#movie-form{
+	/* border: 3px solid black; */
+	position: relative;
+	top: 264px;
+	right: -52px;
+}
+#movie-form button {
+	border: 3px solid black;
+}
+#movie-form search-input{
+	border: 3px solid black;
+}
+#movie-form input[type=text] {
+    border: 3px solid black;
+    border-radius: 4px;
+}
+#movie-form select {
+    border: 3px solid red;
+    border-radius: 4px;
+}
+
+
+
